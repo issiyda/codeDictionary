@@ -1,0 +1,23 @@
+Formファサード
+まとめサイト
+http://recipes.laravel.jp/recipe/224
+
+Formファサード導入手順
+https://qiita.com/zushi_0905/items/a21212a205b755cff2db
+
+
+$ composer require "laravelcollective/html":"^5.5"
+
+
+
+
+==============================================
+
+==============================================
+Form::open
+
+Form::close
+
+
+{{Form::open(['route' => 'named.route'])}}
+route指定してあげる→rootにname指定してあげないと使えない

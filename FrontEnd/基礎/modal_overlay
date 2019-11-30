@@ -1,0 +1,21 @@
+
+modalは
+
+
+
+overlay最初は表示なしだが
+モーダルが表示された場合現れる。
+width height 100%で設定してあげて画面の色を暗く
+
+#overlay{
+    background:rgba(0,0,0,0.3);
+    display: none;
+    height:100%;
+    left:0;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:2;
+}
+
+
